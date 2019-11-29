@@ -1,0 +1,19 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "BROWSERSTACK_USERNAME",
+  "key": "BROWSERSTACK_ACCESS_KEY",
+
+  "capabilities": {
+    "build": "browserstack-junit-selenide",
+    "name": "local_test",
+    "browserstack.debug": true,
+    "browserstack.local": true
+  },
+
+  "environments": [{
+    "os": "Windows",
+    "os_version": "10",
+    "browser": "chrome",
+    "browser_version": "75.0"
+  }]
+}

@@ -1,0 +1,26 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "nithyamani3",
+  "key": "BROWSERSTACK_ACCESS_KEY",
+
+  "capabilities": {
+    "name": "parallel_test",
+    "build": "browserstack-junit-selenide",
+    "browserstack.debug": true
+  },
+
+  "environments": [
+    {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "chrome",
+      "browser_version": "75.0"
+    },
+    {
+      "os": "Windows",
+      "os_version": "10",
+      "browser": "Internet Explorer",
+      "browser_version": "11.0"
+    }
+  ]
+}
