@@ -21,7 +21,7 @@ public class LocalTest extends BrowserStackJUnitTest {
     @Test
     public void test() throws Exception {
 
-        open("http://localhost:8000/");
+        open("http://bs-local.com:45691/check");
         sleep(2000);
 
     }
