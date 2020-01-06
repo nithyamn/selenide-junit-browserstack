@@ -1,4 +1,4 @@
-# selenide-junit-browserstack
+# selenide-junit4-browserstack
 Selenide JUnit Integration with BrowserStack.
 
 ![BrowserStack Logo](https://d98b8t1nnulk5.cloudfront.net/production/images/layout/logo-header.png?1469004780) 
